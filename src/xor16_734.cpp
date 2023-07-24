@@ -1,6 +1,6 @@
 // XOR 16 // full period generator: 734 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_734_state;
 
 bool seed_xor16_734(uint16_t seed) {
@@ -46,6 +46,6 @@ uint16_t xor16_734() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_734_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_734_state)::"r18","r19");
   return __xor16_734_state;
 }

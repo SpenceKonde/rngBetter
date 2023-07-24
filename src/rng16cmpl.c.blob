@@ -1,6 +1,6 @@
 // XOR 16 // full period generator: 11e //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_11e_state;
 
 bool seed_xor16_11e(uint16_t seed) {
@@ -34,7 +34,7 @@ uint16_t xor16_11e() {
       "bst    %A0, 1"        "\n\t"
       "bld    r19, 7"        "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_11e_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_11e_state)::"r18","r19");
   return __xor16_11e_state;
 }
 
@@ -42,7 +42,7 @@ uint16_t xor16_11e() {
 @
 // XOR 16 // full period generator: 11f //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_11f_state;
 
 bool seed_xor16_11f(uint16_t seed) {
@@ -74,7 +74,7 @@ uint16_t xor16_11f() {
       "bst    %A0, 0"        "\n\t"
       "bld    r19, 7"        "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_11f_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_11f_state)::"r18","r19");
   return __xor16_11f_state;
 }
 
@@ -82,7 +82,7 @@ uint16_t xor16_11f() {
 @
 // XOR 16 // full period generator: 152 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_152_state;
 
 bool seed_xor16_152(uint16_t seed) {
@@ -125,7 +125,7 @@ uint16_t xor16_152() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_152_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_152_state)::"r18","r19");
   return __xor16_152_state;
 }
 
@@ -133,7 +133,7 @@ uint16_t xor16_152() {
 @
 // XOR 16 // full period generator: 174 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_174_state;
 
 bool seed_xor16_174(uint16_t seed) {
@@ -175,7 +175,7 @@ uint16_t xor16_174() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_174_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_174_state)::"r18","r19");
   return __xor16_174_state;
 }
 
@@ -183,7 +183,7 @@ uint16_t xor16_174() {
 @
 // XOR 16 // full period generator: 17b //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_17b_state;
 
 bool seed_xor16_17b(uint16_t seed) {
@@ -219,7 +219,7 @@ uint16_t xor16_17b() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_17b_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_17b_state)::"r18","r19");
   return __xor16_17b_state;
 }
 
@@ -227,7 +227,7 @@ uint16_t xor16_17b() {
 @
 // XOR 16 // full period generator: 1b3 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_1b3_state;
 
 bool seed_xor16_1b3(uint16_t seed) {
@@ -264,7 +264,7 @@ uint16_t xor16_1b3() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_1b3_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_1b3_state)::"r18","r19");
   return __xor16_1b3_state;
 }
 
@@ -272,7 +272,7 @@ uint16_t xor16_1b3() {
 @
 // XOR 16 // full period generator: 1f6 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_1f6_state;
 
 bool seed_xor16_1f6(uint16_t seed) {
@@ -314,7 +314,7 @@ uint16_t xor16_1f6() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_1f6_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_1f6_state)::"r18","r19");
   return __xor16_1f6_state;
 }
 
@@ -322,7 +322,7 @@ uint16_t xor16_1f6() {
 @
 // XOR 16 // full period generator: 1f7 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_1f7_state;
 
 bool seed_xor16_1f7(uint16_t seed) {
@@ -357,7 +357,7 @@ uint16_t xor16_1f7() {
       "ror    r18"           "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_1f7_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_1f7_state)::"r18","r19");
   return __xor16_1f7_state;
 }
 
@@ -365,7 +365,7 @@ uint16_t xor16_1f7() {
 @
 // XOR 16 // full period generator: 251 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_251_state;
 
 bool seed_xor16_251(uint16_t seed) {
@@ -408,7 +408,7 @@ uint16_t xor16_251() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_251_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_251_state)::"r18","r19");
   return __xor16_251_state;
 }
 
@@ -416,7 +416,7 @@ uint16_t xor16_251() {
 @
 // XOR 16 // full period generator: 25d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_25d_state;
 
 bool seed_xor16_25d(uint16_t seed) {
@@ -459,7 +459,7 @@ uint16_t xor16_25d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_25d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_25d_state)::"r18","r19");
   return __xor16_25d_state;
 }
 
@@ -467,7 +467,7 @@ uint16_t xor16_25d() {
 @
 // XOR 16 // full period generator: 25f //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_25f_state;
 
 bool seed_xor16_25f(uint16_t seed) {
@@ -509,7 +509,7 @@ uint16_t xor16_25f() {
       "bst    %A0, 0"        "\n\t"
       "bld    r19, 7"        "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_25f_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_25f_state)::"r18","r19");
   return __xor16_25f_state;
 }
 
@@ -517,7 +517,7 @@ uint16_t xor16_25f() {
 @
 // XOR 16 // full period generator: 27d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_27d_state;
 
 bool seed_xor16_27d(uint16_t seed) {
@@ -555,7 +555,7 @@ uint16_t xor16_27d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_27d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_27d_state)::"r18","r19");
   return __xor16_27d_state;
 }
 
@@ -563,7 +563,7 @@ uint16_t xor16_27d() {
 @
 // XOR 16 // full period generator: 27f //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_27f_state;
 
 bool seed_xor16_27f(uint16_t seed) {
@@ -600,7 +600,7 @@ uint16_t xor16_27f() {
       "bst    %A0, 0"        "\n\t"
       "bld    r19, 7"        "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_27f_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_27f_state)::"r18","r19");
   return __xor16_27f_state;
 }
 
@@ -608,7 +608,7 @@ uint16_t xor16_27f() {
 @
 // XOR 16 // full period generator: 31c //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_31c_state;
 
 bool seed_xor16_31c(uint16_t seed) {
@@ -644,7 +644,7 @@ uint16_t xor16_31c() {
       "swap   r19"           "\n\t"
       "andi   r19, 0xF0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_31c_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_31c_state)::"r18","r19");
   return __xor16_31c_state;
 }
 
@@ -652,7 +652,7 @@ uint16_t xor16_31c() {
 @
 // XOR 16 // full period generator: 31f //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_31f_state;
 
 bool seed_xor16_31f(uint16_t seed) {
@@ -688,7 +688,7 @@ uint16_t xor16_31f() {
       "bst    %A0, 0"        "\n\t"
       "bld    r19, 7"        "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_31f_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_31f_state)::"r18","r19");
   return __xor16_31f_state;
 }
 
@@ -696,7 +696,7 @@ uint16_t xor16_31f() {
 @
 // XOR 16 // full period generator: 35b //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_35b_state;
 
 bool seed_xor16_35b(uint16_t seed) {
@@ -741,7 +741,7 @@ uint16_t xor16_35b() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_35b_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_35b_state)::"r18","r19");
   return __xor16_35b_state;
 }
 
@@ -749,7 +749,7 @@ uint16_t xor16_35b() {
 @
 // XOR 16 // full period generator: 3b1 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_3b1_state;
 
 bool seed_xor16_3b1(uint16_t seed) {
@@ -786,7 +786,7 @@ uint16_t xor16_3b1() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_3b1_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_3b1_state)::"r18","r19");
   return __xor16_3b1_state;
 }
 
@@ -794,7 +794,7 @@ uint16_t xor16_3b1() {
 @
 // XOR 16 // full period generator: 3bb //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_3bb_state;
 
 bool seed_xor16_3bb(uint16_t seed) {
@@ -831,7 +831,7 @@ uint16_t xor16_3bb() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_3bb_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_3bb_state)::"r18","r19");
   return __xor16_3bb_state;
 }
 
@@ -839,7 +839,7 @@ uint16_t xor16_3bb() {
 @
 // XOR 16 // full period generator: 3d9 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_3d9_state;
 
 bool seed_xor16_3d9(uint16_t seed) {
@@ -874,7 +874,7 @@ uint16_t xor16_3d9() {
       "mov    r19, %A0"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_3d9_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_3d9_state)::"r18","r19");
   return __xor16_3d9_state;
 }
 
@@ -882,7 +882,7 @@ uint16_t xor16_3d9() {
 @
 // XOR 16 // full period generator: 437 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_437_state;
 
 bool seed_xor16_437(uint16_t seed) {
@@ -928,7 +928,7 @@ uint16_t xor16_437() {
       "ror    r18"           "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_437_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_437_state)::"r18","r19");
   return __xor16_437_state;
 }
 
@@ -936,7 +936,7 @@ uint16_t xor16_437() {
 @
 // XOR 16 // full period generator: 471 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_471_state;
 
 bool seed_xor16_471(uint16_t seed) {
@@ -978,7 +978,7 @@ uint16_t xor16_471() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_471_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_471_state)::"r18","r19");
   return __xor16_471_state;
 }
 
@@ -986,7 +986,7 @@ uint16_t xor16_471() {
 @
 // XOR 16 // full period generator: 4bb //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_4bb_state;
 
 bool seed_xor16_4bb(uint16_t seed) {
@@ -1025,7 +1025,7 @@ uint16_t xor16_4bb() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_4bb_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_4bb_state)::"r18","r19");
   return __xor16_4bb_state;
 }
 
@@ -1033,7 +1033,7 @@ uint16_t xor16_4bb() {
 @
 // XOR 16 // full period generator: 57e //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_57e_state;
 
 bool seed_xor16_57e(uint16_t seed) {
@@ -1078,7 +1078,7 @@ uint16_t xor16_57e() {
       "bst    %A0, 1"        "\n\t"
       "bld    r19, 7"        "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_57e_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_57e_state)::"r18","r19");
   return __xor16_57e_state;
 }
 
@@ -1086,7 +1086,7 @@ uint16_t xor16_57e() {
 @
 // XOR 16 // full period generator: 598 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_598_state;
 
 bool seed_xor16_598(uint16_t seed) {
@@ -1122,7 +1122,7 @@ uint16_t xor16_598() {
       "eor    %A0, r18"      "\n\t"
       "mov    r19, %A0"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_598_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_598_state)::"r18","r19");
   return __xor16_598_state;
 }
 
@@ -1130,7 +1130,7 @@ uint16_t xor16_598() {
 @
 // XOR 16 // full period generator: 5b6 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_5b6_state;
 
 bool seed_xor16_5b6(uint16_t seed) {
@@ -1181,7 +1181,7 @@ uint16_t xor16_5b6() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_5b6_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_5b6_state)::"r18","r19");
   return __xor16_5b6_state;
 }
 
@@ -1189,7 +1189,7 @@ uint16_t xor16_5b6() {
 @
 // XOR 16 // full period generator: 5bb //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_5bb_state;
 
 bool seed_xor16_5bb(uint16_t seed) {
@@ -1230,7 +1230,7 @@ uint16_t xor16_5bb() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_5bb_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_5bb_state)::"r18","r19");
   return __xor16_5bb_state;
 }
 
@@ -1238,7 +1238,7 @@ uint16_t xor16_5bb() {
 @
 // XOR 16 // full period generator: 67d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_67d_state;
 
 bool seed_xor16_67d(uint16_t seed) {
@@ -1284,7 +1284,7 @@ uint16_t xor16_67d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_67d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_67d_state)::"r18","r19");
   return __xor16_67d_state;
 }
 
@@ -1292,7 +1292,7 @@ uint16_t xor16_67d() {
 @
 // XOR 16 // full period generator: 6b5 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_6b5_state;
 
 bool seed_xor16_6b5(uint16_t seed) {
@@ -1343,7 +1343,7 @@ uint16_t xor16_6b5() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_6b5_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_6b5_state)::"r18","r19");
   return __xor16_6b5_state;
 }
 
@@ -1351,7 +1351,7 @@ uint16_t xor16_6b5() {
 @
 // XOR 16 // full period generator: 6f1 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_6f1_state;
 
 bool seed_xor16_6f1(uint16_t seed) {
@@ -1393,7 +1393,7 @@ uint16_t xor16_6f1() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_6f1_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_6f1_state)::"r18","r19");
   return __xor16_6f1_state;
 }
 
@@ -1401,7 +1401,7 @@ uint16_t xor16_6f1() {
 @
 // XOR 16 // full period generator: 71b //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_71b_state;
 
 bool seed_xor16_71b(uint16_t seed) {
@@ -1437,7 +1437,7 @@ uint16_t xor16_71b() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_71b_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_71b_state)::"r18","r19");
   return __xor16_71b_state;
 }
 
@@ -1445,7 +1445,7 @@ uint16_t xor16_71b() {
 @
 // XOR 16 // full period generator: 734 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_734_state;
 
 bool seed_xor16_734(uint16_t seed) {
@@ -1491,7 +1491,7 @@ uint16_t xor16_734() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_734_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_734_state)::"r18","r19");
   return __xor16_734_state;
 }
 
@@ -1499,7 +1499,7 @@ uint16_t xor16_734() {
 @
 // XOR 16 // full period generator: 798 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_798_state;
 
 bool seed_xor16_798(uint16_t seed) {
@@ -1530,7 +1530,7 @@ uint16_t xor16_798() {
       "eor    %A0, r18"      "\n\t"
       "mov    r19, %A0"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_798_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_798_state)::"r18","r19");
   return __xor16_798_state;
 }
 
@@ -1538,7 +1538,7 @@ uint16_t xor16_798() {
 @
 // XOR 16 // full period generator: 79d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_79d_state;
 
 bool seed_xor16_79d(uint16_t seed) {
@@ -1572,7 +1572,7 @@ uint16_t xor16_79d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_79d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_79d_state)::"r18","r19");
   return __xor16_79d_state;
 }
 
@@ -1580,7 +1580,7 @@ uint16_t xor16_79d() {
 @
 // XOR 16 // full period generator: 7f1 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_7f1_state;
 
 bool seed_xor16_7f1(uint16_t seed) {
@@ -1615,7 +1615,7 @@ uint16_t xor16_7f1() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_7f1_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_7f1_state)::"r18","r19");
   return __xor16_7f1_state;
 }
 
@@ -1623,7 +1623,7 @@ uint16_t xor16_7f1() {
 @
 // XOR 16 // full period generator: 895 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_895_state;
 
 bool seed_xor16_895(uint16_t seed) {
@@ -1659,7 +1659,7 @@ uint16_t xor16_895() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_895_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_895_state)::"r18","r19");
   return __xor16_895_state;
 }
 
@@ -1667,7 +1667,7 @@ uint16_t xor16_895() {
 @
 // XOR 16 // full period generator: 897 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_897_state;
 
 bool seed_xor16_897(uint16_t seed) {
@@ -1698,7 +1698,7 @@ uint16_t xor16_897() {
       "ror    r18"           "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_897_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_897_state)::"r18","r19");
   return __xor16_897_state;
 }
 
@@ -1706,7 +1706,7 @@ uint16_t xor16_897() {
 @
 // XOR 16 // full period generator: 97d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_97d_state;
 
 bool seed_xor16_97d(uint16_t seed) {
@@ -1740,7 +1740,7 @@ uint16_t xor16_97d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_97d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_97d_state)::"r18","r19");
   return __xor16_97d_state;
 }
 
@@ -1748,7 +1748,7 @@ uint16_t xor16_97d() {
 @
 // XOR 16 // full period generator: 9d3 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_9d3_state;
 
 bool seed_xor16_9d3(uint16_t seed) {
@@ -1783,7 +1783,7 @@ uint16_t xor16_9d3() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_9d3_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_9d3_state)::"r18","r19");
   return __xor16_9d3_state;
 }
 
@@ -1791,7 +1791,7 @@ uint16_t xor16_9d3() {
 @
 // XOR 16 // full period generator: b17 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_b17_state;
 
 bool seed_xor16_b17(uint16_t seed) {
@@ -1827,7 +1827,7 @@ uint16_t xor16_b17() {
       "ror    r18"           "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_b17_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_b17_state)::"r18","r19");
   return __xor16_b17_state;
 }
 
@@ -1835,7 +1835,7 @@ uint16_t xor16_b17() {
 @
 // XOR 16 // full period generator: b3d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_b3d_state;
 
 bool seed_xor16_b3d(uint16_t seed) {
@@ -1872,7 +1872,7 @@ uint16_t xor16_b3d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_b3d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_b3d_state)::"r18","r19");
   return __xor16_b3d_state;
 }
 
@@ -1880,7 +1880,7 @@ uint16_t xor16_b3d() {
 @
 // XOR 16 // full period generator: b53 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_b53_state;
 
 bool seed_xor16_b53(uint16_t seed) {
@@ -1925,7 +1925,7 @@ uint16_t xor16_b53() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_b53_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_b53_state)::"r18","r19");
   return __xor16_b53_state;
 }
 
@@ -1933,7 +1933,7 @@ uint16_t xor16_b53() {
 @
 // XOR 16 // full period generator: b71 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_b71_state;
 
 bool seed_xor16_b71(uint16_t seed) {
@@ -1969,7 +1969,7 @@ uint16_t xor16_b71() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_b71_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_b71_state)::"r18","r19");
   return __xor16_b71_state;
 }
 
@@ -1977,7 +1977,7 @@ uint16_t xor16_b71() {
 @
 // XOR 16 // full period generator: bb3 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_bb3_state;
 
 bool seed_xor16_bb3(uint16_t seed) {
@@ -2014,7 +2014,7 @@ uint16_t xor16_bb3() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_bb3_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_bb3_state)::"r18","r19");
   return __xor16_bb3_state;
 }
 
@@ -2022,7 +2022,7 @@ uint16_t xor16_bb3() {
 @
 // XOR 16 // full period generator: bb4 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_bb4_state;
 
 bool seed_xor16_bb4(uint16_t seed) {
@@ -2061,7 +2061,7 @@ uint16_t xor16_bb4() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_bb4_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_bb4_state)::"r18","r19");
   return __xor16_bb4_state;
 }
 
@@ -2069,7 +2069,7 @@ uint16_t xor16_bb4() {
 @
 // XOR 16 // full period generator: bb5 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_bb5_state;
 
 bool seed_xor16_bb5(uint16_t seed) {
@@ -2110,7 +2110,7 @@ uint16_t xor16_bb5() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_bb5_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_bb5_state)::"r18","r19");
   return __xor16_bb5_state;
 }
 
@@ -2118,7 +2118,7 @@ uint16_t xor16_bb5() {
 @
 // XOR 16 // full period generator: c13 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_c13_state;
 
 bool seed_xor16_c13(uint16_t seed) {
@@ -2154,7 +2154,7 @@ uint16_t xor16_c13() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_c13_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_c13_state)::"r18","r19");
   return __xor16_c13_state;
 }
 
@@ -2162,7 +2162,7 @@ uint16_t xor16_c13() {
 @
 // XOR 16 // full period generator: d3b //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d3b_state;
 
 bool seed_xor16_d3b(uint16_t seed) {
@@ -2199,7 +2199,7 @@ uint16_t xor16_d3b() {
       "add    r19, r19"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d3b_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d3b_state)::"r18","r19");
   return __xor16_d3b_state;
 }
 
@@ -2207,7 +2207,7 @@ uint16_t xor16_d3b() {
 @
 // XOR 16 // full period generator: c3d //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_c3d_state;
 
 bool seed_xor16_c3d(uint16_t seed) {
@@ -2243,7 +2243,7 @@ uint16_t xor16_c3d() {
       "add    r19, r19"      "\n\t"
       "andi   r19, 0xE0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_c3d_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_c3d_state)::"r18","r19");
   return __xor16_c3d_state;
 }
 
@@ -2251,7 +2251,7 @@ uint16_t xor16_c3d() {
 @
 // XOR 16 // full period generator: d3c //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d3c_state;
 
 bool seed_xor16_d3c(uint16_t seed) {
@@ -2287,7 +2287,7 @@ uint16_t xor16_d3c() {
       "swap   r19"           "\n\t"
       "andi   r19, 0xF0"     "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d3c_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d3c_state)::"r18","r19");
   return __xor16_d3c_state;
 }
 
@@ -2295,7 +2295,7 @@ uint16_t xor16_d3c() {
 @
 // XOR 16 // full period generator: d52 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d52_state;
 
 bool seed_xor16_d52(uint16_t seed) {
@@ -2338,7 +2338,7 @@ uint16_t xor16_d52() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d52_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d52_state)::"r18","r19");
   return __xor16_d52_state;
 }
 
@@ -2346,7 +2346,7 @@ uint16_t xor16_d52() {
 @
 // XOR 16 // full period generator: d72 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d72_state;
 
 bool seed_xor16_d72(uint16_t seed) {
@@ -2384,7 +2384,7 @@ uint16_t xor16_d72() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d72_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d72_state)::"r18","r19");
   return __xor16_d72_state;
 }
 
@@ -2392,7 +2392,7 @@ uint16_t xor16_d72() {
 @
 // XOR 16 // full period generator: d76 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d76_state;
 
 bool seed_xor16_d76(uint16_t seed) {
@@ -2438,7 +2438,7 @@ uint16_t xor16_d76() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d76_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d76_state)::"r18","r19");
   return __xor16_d76_state;
 }
 
@@ -2446,7 +2446,7 @@ uint16_t xor16_d76() {
 @
 // XOR 16 // full period generator: d79 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d79_state;
 
 bool seed_xor16_d79(uint16_t seed) {
@@ -2480,7 +2480,7 @@ uint16_t xor16_d79() {
       "mov    r19, %A0"      "\n\t"
       "add    r19, r19"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d79_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d79_state)::"r18","r19");
   return __xor16_d79_state;
 }
 
@@ -2488,7 +2488,7 @@ uint16_t xor16_d79() {
 @
 // XOR 16 // full period generator: d97 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_d97_state;
 
 bool seed_xor16_d97(uint16_t seed) {
@@ -2522,7 +2522,7 @@ uint16_t xor16_d97() {
       "ror    r18"           "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_d97_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_d97_state)::"r18","r19");
   return __xor16_d97_state;
 }
 
@@ -2530,7 +2530,7 @@ uint16_t xor16_d97() {
 @
 // XOR 16 // full period generator: e11 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_e11_state;
 
 bool seed_xor16_e11(uint16_t seed) {
@@ -2564,7 +2564,7 @@ uint16_t xor16_e11() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_e11_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_e11_state)::"r18","r19");
   return __xor16_e11_state;
 }
 
@@ -2572,7 +2572,7 @@ uint16_t xor16_e11() {
 @
 // XOR 16 // full period generator: e75 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_e75_state;
 
 bool seed_xor16_e75(uint16_t seed) {
@@ -2617,7 +2617,7 @@ uint16_t xor16_e75() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_e75_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_e75_state)::"r18","r19");
   return __xor16_e75_state;
 }
 
@@ -2625,7 +2625,7 @@ uint16_t xor16_e75() {
 @
 // XOR 16 // full period generator: f11 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_f11_state;
 
 bool seed_xor16_f11(uint16_t seed) {
@@ -2657,7 +2657,7 @@ uint16_t xor16_f11() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_f11_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_f11_state)::"r18","r19");
   return __xor16_f11_state;
 }
 
@@ -2665,7 +2665,7 @@ uint16_t xor16_f11() {
 @
 // XOR 16 // full period generator: f13 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_f13_state;
 
 bool seed_xor16_f13(uint16_t seed) {
@@ -2701,7 +2701,7 @@ uint16_t xor16_f13() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_f13_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_f13_state)::"r18","r19");
   return __xor16_f13_state;
 }
 
@@ -2709,7 +2709,7 @@ uint16_t xor16_f13() {
 @
 // XOR 16 // full period generator: f52 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_f52_state;
 
 bool seed_xor16_f52(uint16_t seed) {
@@ -2751,7 +2751,7 @@ uint16_t xor16_f52() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_f52_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_f52_state)::"r18","r19");
   return __xor16_f52_state;
 }
 
@@ -2759,7 +2759,7 @@ uint16_t xor16_f52() {
 @
 // XOR 16 // full period generator: f72 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_f72_state;
 
 bool seed_xor16_f72(uint16_t seed) {
@@ -2796,6 +2796,6 @@ uint16_t xor16_f72() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_f72_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_f72_state)::"r18","r19");
   return __xor16_f72_state;
 }

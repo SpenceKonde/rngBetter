@@ -1,0 +1,196 @@
+
+
+Symbols from C:\Users\Spence\AppData\Local\Temp\arduino_build_434784/rngBetterTest.ino.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+__heap_end          |00000000|   W  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_ORIGIN__|00000000|   W  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__vector_default    |00000000|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:61
+__vectors           |00000000|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:61
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__FUSE_REGION_LENGTH__|00000010|   A  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__trampolines_end   |000000a8|   T  |            NOTYPE|        |     |.text
+__trampolines_start |000000a8|   T  |            NOTYPE|        |     |.text
+_usart0_pins        |000000a8|   t  |            OBJECT|00000009|     |.text
+__ctors_start       |000000b2|   T  |            NOTYPE|        |     |.text
+__ctors_end         |000000b4|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__dtors_end         |000000b4|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__dtors_start       |000000b4|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__init              |000000b4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+_initThreeStuff()   |000000c0|   T  |              FUNC|00000028|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/main.cpp:190
+__do_copy_data      |000000e8|   T  |            NOTYPE|0000001a|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2373
+__do_clear_bss      |00000102|   T  |            NOTYPE|00000010|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+.do_clear_bss_loop  |0000010a|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+.do_clear_bss_start |0000010c|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+__do_global_ctors   |00000112|   T  |            NOTYPE|00000016|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+__bad_interrupt     |00000130|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_1          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_10         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_11         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_12         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_13         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_14         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_15         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_16         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_17         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_18         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_19         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_2          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_20         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_24         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_25         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_26         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_27         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_28         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_29         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_3          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_30         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_32         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_33         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_34         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_35         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_36         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_37         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_38         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_39         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_4          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_40         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_41         |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_5          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_6          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_7          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_8          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_9          |00000130|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+Print::write(unsigned char const*, unsigned int)|00000132|   t  |              FUNC|0000005a|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore\api/Print.cpp:29
+HardwareSerial::availableForWrite()|0000018c|   t  |              FUNC|0000001e|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:727
+HardwareSerial::read()|000001aa|   t  |              FUNC|00000028|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:711
+HardwareSerial::peek()|000001d2|   t  |              FUNC|0000001c|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:703
+HardwareSerial::available()|000001ee|   t  |              FUNC|00000018|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:699
+__EEPROM_REGION_LENGTH__|00000200|   A  |            NOTYPE|        |     |*ABS*
+HardwareSerial::_poll_tx_data_empty()|00000206|   t  |              FUNC|0000003c|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:426
+_poll_dre_done      |00000240|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:474
+HardwareSerial::write(unsigned char)|00000242|   t  |              FUNC|00000098|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:767
+HardwareSerial::printHex(unsigned char) [clone .constprop.19]|000002da|   t  |              FUNC|0000002c|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:824
+HardwareSerial::flush()|00000306|   t  |              FUNC|00000028|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:736
+micros              |0000032e|   t  |              FUNC|0000008a|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/wiring.c:441
+Print::write(char const*) [clone .part.2] [clone .constprop.21]|000003b8|   t  |              FUNC|00000012|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore\api/Print.h:56
+Print::print(char const*) [clone .constprop.9]|000003ca|   t  |              FUNC|00000008|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore\api/Print.cpp:66
+Print::println(unsigned int, int) [clone .constprop.10]|000003d2|   t  |              FUNC|0000008a|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore\api/Print.cpp:157
+__LOCK_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__USER_SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+setup               |0000045c|   t  |              FUNC|0000150a|     |.text	C:\Users\Spence\Documents\Arduino\rngBetterTest/rngBetterTest.ino:6
+__vector_22         |00001966|   T  |              FUNC|0000000c|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART0.cpp:114
+__vector_21         |00001972|   T  |              FUNC|0000000c|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART0.cpp:91
+__vector_23         |0000197e|   T  |              FUNC|0000000a|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART0.cpp:55
+_do_dre             |00001988|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART0.cpp:66
+_do_dre()           |00001988|   T  |              FUNC|0000005e|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:304
+_poll_dre           |00001998|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:387
+_done_dre_irq       |000019c6|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:387
+_do_rxc             |000019e6|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:387
+_do_rxc()           |000019e6|   T  |              FUNC|00000060|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:174
+_end_rxc            |00001a2a|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:252
+_buff_full_rxc      |00001a42|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:252
+_do_txc             |00001a46|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:252
+_do_txc()           |00001a46|   T  |              FUNC|00000032|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:91
+_txc_flush_rx       |00001a58|   t  |            NOTYPE|        |     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART.cpp:127
+__vector_31         |00001a78|   T  |              FUNC|00000038|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/wiring.c:134
+main                |00001ab0|   T  |              FUNC|000000c4|     |.text	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/main.cpp:91
+_GLOBAL__sub_I___vector_23|00001b74|   t  |              FUNC|0000003a|     |.text
+__udivmodsi4        |00001bae|   T  |            NOTYPE|00000044|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1638
+__udivmodsi4_loop   |00001bba|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1646
+__udivmodsi4_ep     |00001bd4|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1660
+__muluhisi3         |00001bf2|   T  |            NOTYPE|00000014|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:626
+__tablejump2__      |00001c06|   T  |            NOTYPE|00000012|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+__umulhisi3         |00001c18|   T  |            NOTYPE|0000001e|     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:564
+_exit               |00001c36|   T  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+exit                |00001c36|   W  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+__stop_program      |00001c38|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+__data_load_start   |00001c3a|   A  |            NOTYPE|        |     |*ABS*
+_etext              |00001c3a|   T  |            NOTYPE|        |     |.text
+__data_load_end     |00001e86|   A  |            NOTYPE|        |     |*ABS*
+__DATA_REGION_LENGTH__|00004000|   A  |            NOTYPE|        |     |*ABS*
+__stack             |00007fff|   W  |            NOTYPE|        |     |*ABS*
+__RODATA_PM_OFFSET__|00008000|   A  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_LENGTH__|00020000|   A  |            NOTYPE|        |     |*ABS*
+__DATA_REGION_ORIGIN__|00804000|   A  |            NOTYPE|        |     |*ABS*
+__data_start        |00804000|   D  |            NOTYPE|        |     |.data
+digital_pin_to_bit_position|00804000|   d  |            OBJECT|00000017|     |.data	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\variants\28pin-standard/pins_arduino.h:276
+digital_pin_to_port |00804017|   d  |            OBJECT|00000017|     |.data	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\variants\28pin-standard/pins_arduino.h:248
+digital_pin_to_bit_mask|0080402e|   d  |            OBJECT|00000017|     |.data	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\variants\28pin-standard/pins_arduino.h:315
+vtable for HardwareSerial|00804045|   d  |            OBJECT|00000012|     |.data
+__bss_start         |0080424c|   B  |            NOTYPE|        |     |.bss
+__data_end          |0080424c|   D  |            NOTYPE|        |     |.data
+_edata              |0080424c|   D  |            NOTYPE|        |     |.data
+__xor16_11e_state   |0080424c|   b  |            OBJECT|00000002|     |.bss
+__xor16_11f_state   |0080424e|   b  |            OBJECT|00000002|     |.bss
+__xor16_152_state   |00804250|   b  |            OBJECT|00000002|     |.bss
+__xor16_174_state   |00804252|   b  |            OBJECT|00000002|     |.bss
+__xor16_17b_state   |00804254|   b  |            OBJECT|00000002|     |.bss
+__xor16_1b3_state   |00804256|   b  |            OBJECT|00000002|     |.bss
+__xor16_1f6_state   |00804258|   b  |            OBJECT|00000002|     |.bss
+__xor16_1f7_state   |0080425a|   b  |            OBJECT|00000002|     |.bss
+__xor16_251_state   |0080425c|   b  |            OBJECT|00000002|     |.bss
+__xor16_25d_state   |0080425e|   b  |            OBJECT|00000002|     |.bss
+__xor16_25f_state   |00804260|   b  |            OBJECT|00000002|     |.bss
+__xor16_27d_state   |00804262|   b  |            OBJECT|00000002|     |.bss
+__xor16_27f_state   |00804264|   b  |            OBJECT|00000002|     |.bss
+__xor16_31c_state   |00804266|   b  |            OBJECT|00000002|     |.bss
+__xor16_31f_state   |00804268|   b  |            OBJECT|00000002|     |.bss
+__xor16_35b_state   |0080426a|   b  |            OBJECT|00000002|     |.bss
+__xor16_3b1_state   |0080426c|   b  |            OBJECT|00000002|     |.bss
+__xor16_3bb_state   |0080426e|   b  |            OBJECT|00000002|     |.bss
+__xor16_3d9_state   |00804270|   b  |            OBJECT|00000002|     |.bss
+__xor16_437_state   |00804272|   b  |            OBJECT|00000002|     |.bss
+__xor16_471_state   |00804274|   b  |            OBJECT|00000002|     |.bss
+__xor16_4bb_state   |00804276|   b  |            OBJECT|00000002|     |.bss
+__xor16_57e_state   |00804278|   b  |            OBJECT|00000002|     |.bss
+__xor16_598_state   |0080427a|   b  |            OBJECT|00000002|     |.bss
+__xor16_5b6_state   |0080427c|   b  |            OBJECT|00000002|     |.bss
+__xor16_5bb_state   |0080427e|   b  |            OBJECT|00000002|     |.bss
+__xor16_67d_state   |00804280|   b  |            OBJECT|00000002|     |.bss
+__xor16_6b5_state   |00804282|   b  |            OBJECT|00000002|     |.bss
+__xor16_6f1_state   |00804284|   b  |            OBJECT|00000002|     |.bss
+__xor16_71b_state   |00804286|   b  |            OBJECT|00000002|     |.bss
+__xor16_734_state   |00804288|   b  |            OBJECT|00000002|     |.bss
+__xor16_798_state   |0080428a|   b  |            OBJECT|00000002|     |.bss
+__xor16_79d_state   |0080428c|   b  |            OBJECT|00000002|     |.bss
+__xor16_7f1_state   |0080428e|   b  |            OBJECT|00000002|     |.bss
+__xor16_895_state   |00804290|   b  |            OBJECT|00000002|     |.bss
+__xor16_897_state   |00804292|   b  |            OBJECT|00000002|     |.bss
+__xor16_97d_state   |00804294|   b  |            OBJECT|00000002|     |.bss
+__xor16_9d3_state   |00804296|   b  |            OBJECT|00000002|     |.bss
+__xor16_b17_state   |00804298|   b  |            OBJECT|00000002|     |.bss
+__xor16_b3d_state   |0080429a|   b  |            OBJECT|00000002|     |.bss
+__xor16_b53_state   |0080429c|   b  |            OBJECT|00000002|     |.bss
+__xor16_b71_state   |0080429e|   b  |            OBJECT|00000002|     |.bss
+__xor16_bb3_state   |008042a0|   b  |            OBJECT|00000002|     |.bss
+__xor16_bb4_state   |008042a2|   b  |            OBJECT|00000002|     |.bss
+__xor16_bb5_state   |008042a4|   b  |            OBJECT|00000002|     |.bss
+__xor16_c13_state   |008042a6|   b  |            OBJECT|00000002|     |.bss
+__xor16_d3b_state   |008042a8|   b  |            OBJECT|00000002|     |.bss
+__xor16_c3d_state   |008042aa|   b  |            OBJECT|00000002|     |.bss
+__xor16_d3c_state   |008042ac|   b  |            OBJECT|00000002|     |.bss
+__xor16_d52_state   |008042ae|   b  |            OBJECT|00000002|     |.bss
+__xor16_d72_state   |008042b0|   b  |            OBJECT|00000002|     |.bss
+__xor16_d76_state   |008042b2|   b  |            OBJECT|00000002|     |.bss
+__xor16_d79_state   |008042b4|   b  |            OBJECT|00000002|     |.bss
+__xor16_d97_state   |008042b6|   b  |            OBJECT|00000002|     |.bss
+__xor16_e11_state   |008042b8|   b  |            OBJECT|00000002|     |.bss
+__xor16_e75_state   |008042ba|   b  |            OBJECT|00000002|     |.bss
+__xor16_f11_state   |008042bc|   b  |            OBJECT|00000002|     |.bss
+__xor16_f13_state   |008042be|   b  |            OBJECT|00000002|     |.bss
+__xor16_f52_state   |008042c0|   b  |            OBJECT|00000002|     |.bss
+__xor16_f72_state   |008042c2|   b  |            OBJECT|00000002|     |.bss
+timingStruct        |008042c4|   b  |            OBJECT|00000004|     |.bss	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/wiring.c:120
+Serial0             |008042c8|   b  |            OBJECT|00000093|     |.bss	C:\Users\Spence\Documents\Arduino\hardware\DxCore\megaavr\cores\dxcore/UART0.cpp:130
+__bss_end           |0080435b|   B  |            NOTYPE|        |     |.bss
+_end                |0080435b|   N  |            NOTYPE|        |     |.comment
+__eeprom_end        |00810000|   N  |            NOTYPE|        |     |.comment

@@ -1,6 +1,6 @@
 // XOR 16 // full period generator: b17 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_b17_state;
 
 bool seed_xor16_b17(uint16_t seed) {
@@ -36,6 +36,6 @@ uint16_t xor16_b17() {
       "ror    r18"           "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_b17_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_b17_state)::"r18","r19");
   return __xor16_b17_state;
 }

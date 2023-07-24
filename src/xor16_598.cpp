@@ -1,6 +1,6 @@
 // XOR 16 // full period generator: 598 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_598_state;
 
 bool seed_xor16_598(uint16_t seed) {
@@ -36,6 +36,6 @@ uint16_t xor16_598() {
       "eor    %A0, r18"      "\n\t"
       "mov    r19, %A0"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_598_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_598_state)::"r18","r19");
   return __xor16_598_state;
 }

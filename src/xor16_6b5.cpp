@@ -1,6 +1,6 @@
 // XOR 16 // full period generator: 6b5 //
 
-#include "rng16compl.h"
+#include <rngBetter.h>
 static uint16_t __xor16_6b5_state;
 
 bool seed_xor16_6b5(uint16_t seed) {
@@ -51,6 +51,6 @@ uint16_t xor16_6b5() {
       "adc    r19, r19"      "\n\t"
       "eor    %A0, r18"      "\n\t"
       "eor    %B0, r19"      "\n\t"
-    :"+d"((uint16_t)__xor16_6b5_state)::r"r18","r19");
+    :"+d"((uint16_t)__xor16_6b5_state)::"r18","r19");
   return __xor16_6b5_state;
 }
